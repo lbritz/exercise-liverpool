@@ -7,7 +7,4 @@ service SampleLiverpoolService
         projection on my.Risks;
 }
 
-annotate SampleLiverpoolService with @requires :
-[
-    'authenticated-user'
-];
+
